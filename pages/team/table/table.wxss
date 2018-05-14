@@ -1,0 +1,21 @@
+.team-table {
+    height: 950rpx;
+    width: 100%;
+}
+.team-table-item{
+    width: 40%;
+    float: left;
+    border: 3px solid #eaeaea;
+    box-shadow: 0 2px 6px #e6e6e6;
+    box-sizing: border-box;
+    margin: 40rpx 5%;
+    padding: 20rpx 0;
+}
+.team-table-item view{
+    text-align: center;
+    color: #999;
+    font-weight: bold;
+}
+.team-table-item image{
+    width: 60%;
+}

@@ -1,0 +1,5 @@
+<view class="rank-button">
+    <view class="line" style="animation:{{left}};animation-fill-mode:forwards"></view>
+    <view data-area='east' bindtap='clickBtn' class="{{isClicked.east?'.rank-button-hover':'.rank-button-normal'}}">东部排行榜</view>
+    <view data-area='west' bindtap='clickBtn' class="{{isClicked.west?'.rank-button-hover':'.rank-button-normal'}}">西部排行榜</view>
+</view>

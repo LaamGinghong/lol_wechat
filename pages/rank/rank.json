@@ -1,0 +1,8 @@
+{
+  "usingComponents":{
+    "rank-title":"/pages/rank/title/title",
+    "rank-button":"/pages/rank/button/button",
+    "rank-item":"/pages/rank/item/item",
+    "rank-table":"/pages/rank/table/table"
+  }
+}

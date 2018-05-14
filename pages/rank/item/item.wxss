@@ -1,0 +1,24 @@
+.rank-item {
+  width: 100%;
+  height: 50rpx;
+  clear: both;
+  background: #ddd;
+}
+
+.rank-item view {
+  float: left;
+  font-size: 14px;
+  font-weight: bold;
+  color: #666;
+  height: 100%;
+  line-height: 50rpx;
+  text-align: center;
+}
+
+.col-2 {
+  width: 16.66666666666667%;
+}
+
+.col-4 {
+  width: 33.33333333333333%;
+}

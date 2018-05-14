@@ -1,0 +1,28 @@
+.team-members-table {
+    width: 100%;
+    height: 800rpx;
+    position: relative;
+    z-index: 10;
+}
+
+.team-members-table-item {
+    width: 40%;
+    height: 340rpx;
+    float: left;
+    border: 3px solid #eaeaea;
+    box-shadow: 0 2px 6px #e6e6e6;
+    box-sizing: border-box;
+    margin: 40rpx 5%;
+    padding: 20rpx 0;
+    text-align: center;
+}
+
+.team-members-table-item image {
+    width: 80%;
+}
+
+.team-members-table-item text {
+    display: block;
+    color: #999;
+    font-weight: bold;
+}

@@ -1,0 +1,2 @@
+<team-title></team-title>  
+<team-table value="{{msg}}" url="{{url}}"></team-table>

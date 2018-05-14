@@ -1,0 +1,11 @@
+<scroll-view scroll-y enable-back-to-top class='rank-table'>
+  <view wx:for="{{value}}" wx:key="{{g_id}}">
+    <view class='rank-table-item col-2' style="color:{{item.color}}">{{item.g_rank}}</view>
+    <view class='rank-table-item col-4'>{{item.g_team}}</view>
+    <view class='rank-table-item col-4'>
+      <view style='color:#cb0a38'>{{item.g_win}}</view>/
+      <view style='color:#2c6db0'>{{item.g_lose}}</view>
+    </view>
+    <view class='rank-table-item col-2'>{{item.g_mark}}</view>
+  </view>
+</scroll-view>

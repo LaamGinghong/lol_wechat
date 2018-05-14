@@ -1,0 +1,6 @@
+<view class="team-message-summaryAll">
+    <view class="team-message-summaryAll-content">
+        <text>{{msg}}</text>
+        <icon class="team-message-summaryAll-close" type="cancel" size="30" color="#333" bindtap="closeSummary"></icon>
+    </view>
+</view>

@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "team-members-table": "/pages/team-message/team-members/team-members-table/team-members-table"
+  }
+}

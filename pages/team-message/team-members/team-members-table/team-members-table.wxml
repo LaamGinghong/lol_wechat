@@ -1,0 +1,6 @@
+<scroll-view class="team-members-table" scroll-y="{{true}}">
+    <view wx:for="{{value}}" wx:key="{{p_id}}" class="team-members-table-item">
+        <image src="{{item.p_image}}" mode="widthFix"></image>
+        <text>{{item.p_userid}}</text>
+    </view>
+</scroll-view>

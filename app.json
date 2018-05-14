@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/team/team",
+    "pages/rank/rank",
+    "pages/team-message/team-message"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "玩家赛事",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/team/team",
+        "text": "队伍"
+      },
+      {
+        "pagePath": "pages/team/team",
+        "text": "赛程"
+      },
+      {
+        "pagePath": "pages/rank/rank",
+        "text": "排行榜"
+      },
+      {
+        "pagePath": "pages/team/team",
+        "text": "数据"
+      }
+    ],
+    "color": "#999",
+    "selectedColor": "#fff",
+    "backgroundColor": "#333"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

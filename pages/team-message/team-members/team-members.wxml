@@ -1,0 +1,4 @@
+<view class="team-members">
+    <text class="team-members-title">队伍成员</text>
+    <team-members-table value="{{value}}"></team-members-table>
+</view>

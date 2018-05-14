@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "team-data-table": "/pages/team-message/team-data/team-data-table/team-data-table"
+  }
+}

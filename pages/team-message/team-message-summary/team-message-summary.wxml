@@ -1,0 +1,11 @@
+<view class="team-message-summary">
+    <view style="text-align:center">
+        <image src="{{value.url}}" mode="widthFix"></image>
+    </view>
+    <view>
+        <text>{{summary}}</text>
+    </view>
+    <view class="moreBtn">
+        <text bindtap="showMore">更多>></text>
+    </view>
+</view>

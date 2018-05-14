@@ -1,0 +1,6 @@
+<view class="team-message" style="overflow:{{show?'hidden':'auto'}}">
+    <team-message-summary value="{{team_details}}" bind:showSummary="showSummary"></team-message-summary>
+    <team-message-summaryAll wx:if="{{show}}" msg="{{team_details.l_summary}}" bind:closeSummary="closeSummary"></team-message-summaryAll>
+    <team-members value="{{team_members}}"></team-members>
+    <team-data value="{{team_details}}"></team-data>
+</view>

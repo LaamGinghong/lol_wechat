@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "team-message-summary": "/pages/team-message/team-message-summary/team-message-summary",
+    "team-message-summaryAll": "/pages/team-message/team-message-summaryAll/team-message-summaryAll",
+    "team-members": "/pages/team-message/team-members/team-members",
+    "team-data": "/pages/team-message/team-data/team-data"
+  }
+}

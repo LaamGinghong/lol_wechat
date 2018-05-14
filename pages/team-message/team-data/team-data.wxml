@@ -1,0 +1,4 @@
+<view class="team-data">
+    <text class="team-data-title">队伍数据</text>
+    <team-data-table value="{{team_details}}"></team-data-table>
+</view>

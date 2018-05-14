@@ -1,0 +1,12 @@
+.title{
+    height: 80rpx;
+    line-height: 80rpx;
+    text-align: center;
+    font-weight: bold;
+    font-size: 26px;
+    margin: 40rpx 0;
+    color: #404040;
+    border-left: 8px solid #cea04a;
+    border-right: 8px solid #cea04a;
+    background: #ededee;
+}

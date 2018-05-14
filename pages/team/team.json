@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "team-title": "/pages/team/title/title",
+    "team-table": "/pages/team/table/table"
+  }
+}

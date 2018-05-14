@@ -1,0 +1,4 @@
+<rank-title></rank-title>
+<rank-button bind:changeArea="changeArea"></rank-button>
+<rank-item></rank-item>
+<rank-table value="{{msg}}"></rank-table>

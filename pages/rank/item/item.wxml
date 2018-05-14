@@ -1,0 +1,6 @@
+<view class="rank-item">
+  <view class='col-2'>排名</view>
+  <view class='col-4'>战队</view>
+  <view class='col-4'>胜/负</view>
+  <view class='col-2'>积分</view>
+</view>

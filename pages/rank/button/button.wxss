@@ -1,0 +1,52 @@
+.rank-button {
+    width: 100%;
+    position: relative;
+}
+
+.rank-button view {
+    width: 50%;
+    float: left;
+    font-weight: bold;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 20rpx 0;
+    transition: background .2s;
+}
+
+.rank-button-normal {
+    color: #333;
+    background: #eee;
+    border-top: none;
+}
+
+.rank-button-hover {
+    background: #ccc;
+    color: #cb0a38;
+}
+
+.line {
+    width: 100%;
+    height: 8rpx;
+    padding: 0 !important;
+    background: #cb0a38;
+    position: absolute;
+    top: 0;
+}
+
+@keyframes lineWest {
+    from {
+        left: 0;
+    }
+    to {
+        left: 50%;
+    }
+}
+
+@keyframes lineEast {
+    from {
+        left: 50%;
+    }
+    to {
+        left: 0;
+    }
+}

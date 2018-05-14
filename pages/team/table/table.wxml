@@ -1,0 +1,12 @@
+<scroll-view class="team-table" scroll-y="{{true}}" enable-back-to-top="{{true}}">
+  <view wx:for="{{value}}" wx:key="{{l_id}}" class="team-table-item">
+    <navigator url='/pages/team-message/team-message?id={{item.l_id}}' open-type='navigate'>
+      <view>
+        <image src="{{url}}static/{{item.l_shortname}}/{{item.l_shortname}}.png" lazy-load="{{true}}" mode="widthFix" />
+      </view>
+      <view>
+        <text>{{item.l_shortname}}</text>
+      </view>
+    </navigator>
+  </view>
+</scroll-view>
